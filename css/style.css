@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: green;
+}
+
+body#h1 {
+ font-family: fantasy   
+}
+
+textarea#body {
+    width: 500px;
+    height: 300px;
+    resize: none
+}
+
+textarea#title {
+ width: 500px;
+ height:25px;
+resize:none
+}

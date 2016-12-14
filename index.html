@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Notebook</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+    <body onload='document.notebookForm.title.focus()'>
+
+        <section class="main">
+        
+        <form name="notebookForm" action="php/notebook.php" onsubmit="return validation()" onclick="alphanumeric(document.notebookForm.title)" method="post">
+
+            <h1>Notebook</h1>
+            <p>
+<h2>Title</h2><textarea id="title" name="title"></textarea><br>
+<h2>Notes</h2><textarea id="body" name="body"></textarea>
+
+<br>
+<input type="submit" value="Submit">
+
+            <br> <br> <a href="php/notebook.php">Return to Previous Notes</a>
+            </p>
+</form>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
